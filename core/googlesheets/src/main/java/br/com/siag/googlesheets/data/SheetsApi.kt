@@ -7,7 +7,7 @@ import retrofit2.http.Query
 interface SheetsApi {
     @GET("$SHEET_ID/values/Página1!A1:C500")
     suspend fun getSpreadSheetById(
-        @Query("key") key: String = "AIzaSyDtethmQyVt2f4Lu1O9RExEcpGJFG8LnkY"
+        @Query("key") key: String = ""
     ): SpreadSheet
 
     companion object {
