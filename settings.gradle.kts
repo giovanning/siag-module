@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "SIAG Modulos"
 include(":app")
- 
+include(":core:googlesheets")
